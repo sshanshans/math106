@@ -37,12 +37,11 @@ The most important part of homework is reading. Many students are not used to th
 The Math 106L Syllabus gives a complete schedule of the course along with daily homework assignments. You are expected to do the homework before each class so that you can understand the new material. This homework will not be collected nor graded, but it is unlikely that you will succeed on exams without practice.
 
 * Problem sets:  <br>
-These one-problem (often multi-part) assignments are designed to help you think more deeply about material. As a work of warning, the assignments do not fully cover the scope of the class, and you should not use them as a substitue for daily homework assignments. Assignments are due in class by the start of class on the day indicated at the top of the problem set. These problems are available under the schedule section.
-
+These one-problem (often multi-part) assignments are designed to help you think more deeply about material. As a work of warning, the assignments do not fully cover the scope of the class, and you should not use them as a substitue for daily homework assignments. Assignments are due in class by the start of class on the day indicated at the top of the problem set. These problems are available under the schedule section. <br>
 You are encouraged to collaborate with others in the course and use the resources of the help room. But your written solutions must be your own, reflecting your own personal understanding. Late assignments will not be accepted.
 
 * Lab reports: <br>
-You will either have an individual quiz or be required to hand in a group report on your work in the following week's lab. 
+You will either have an individual quiz or be required to hand in a group report on your work in the following week's lab.  <br>
 
 ### Midterms and Final Exam:
 There will be four in-class midterms and one final in the exam period in this course.  These exams are scheduled on the following dates:
@@ -60,7 +59,7 @@ There will be no make-up exams nor rescheduled exams, except excused by your dea
 
 * serious illness only if documentation is provided with a written excuse from your dean. <br>
 * serious illness or death in the family only if documentation is provided with a written excuse from your dean. <br>
-* athletic commitments or religious obligations only if documentation is provided with a written excuse from your dean and prior notice is given. In such cases, rescheduled exams must be taken before the rest of the class.  
+* athletic commitments or religious obligations only if documentation is provided with a written excuse from your dean and prior notice is given. In such cases, rescheduled exams must be taken before the rest of the class.   <br>
 
 ### Duke Community Standard: 
 Students are expected to adhere to the [Duke Community Standard](http://integrity.duke.edu/new.html) . If a student is found responsible for academic dishonesty on a graded assignment, I reserve the right to assign a grade of zero to the assignment in question and to further reduce the final grade for the course by one or more letter grades possibly to a failing grade. 
