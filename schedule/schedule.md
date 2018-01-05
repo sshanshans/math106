@@ -4,6 +4,6 @@ title: Schedule
 description: weekly schedule
 ---
 
-* week 1: [Problem set]() [Solution]()
+* week 1: Problem set [pdf]() <br> Solution [pdf]() <br>
 
 
