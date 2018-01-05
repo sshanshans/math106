@@ -1,2 +1,2 @@
 # calculus2
-Math 122L 
+Math 106L
