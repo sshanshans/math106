@@ -4,7 +4,7 @@ title: Laboratory Calculus and Functions II
 description: course webpage
 --- 
 
-[<img src="/math106/images/needle.png" >](\math106\project\project.html)
+[<img src="/math106/images/math106.png" >](\math106\project\project.html)
 
 ### Course Information
 Lectures: MWF, 08:45am - 09:35am in Carr 114 <br />
