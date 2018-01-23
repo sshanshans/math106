@@ -9,4 +9,7 @@ For a complete schedule, please refer to Sakai.
   Problem set [(pdf)](\math106\schedule\week1\1.pdf) <br>
   Solution [(pdf)]() <br>
 
+* week 2: <br>
+  Problem set [(pdf)](\math106\schedule\week2\2.pdf) <br>
+
 
