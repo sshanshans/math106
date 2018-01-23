@@ -1,0 +1,86 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Problem set 2}
+\chead{\textbf{Trig Derivatives and Inverse Trigs}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+
+The following questions help you think a little more about $\cos(x)$. 
+
+If $g(x) = \cos(x)$, 
+\begin{enumerate}
+      \item Use the definition of the derivative to show that $g'(x) = -\sin(x)$. [4pt]
+      
+      From the definition of derivatives, we have 
+      \begin{align*}
+      g'(x) &= \lim_{h \rightarrow 0} \frac{\cos(x+h) - \cos(x)}{h}  ~~~(1) \\
+      & = \lim_{h \rightarrow 0} \frac{ \cos(x)\cos(h) - \sin(x) \sin(h) - \cos(x)}{h} ~~~(1)  \\
+      & = \cos(x)  \lim_{h \rightarrow 0} \frac{\cos(h) -1}{h} - \sin(x)  \lim_{h \rightarrow 0} \frac{\sin(h)}{h} ~~~(1) \\
+      & = -\sin(x)
+      \end{align*}
+      since $\lim_{h \rightarrow 0} \frac{\cos(h) -1}{h} = 0 $ and $\lim_{h \rightarrow 0} \frac{\sin(h)}{h}$ is 1. (1)
+      
+      \item True of False: $g''(x) = -g(x)$. Explain your answer. [1pt]
+     
+      True, since $g''(x) = -\cos(x) = -g(x)$. 
+      
+      \item Graph $y = \cos(x)$ on $[-2\pi, 2\pi]$. 
+      
+      \item Why is $\cos(x)$ not invertible on $[-2\pi, 2\pi]$.? [1pt]
+     
+      $\cos(x)$ is not one-to-one on $[-2\pi, 2\pi]$. 
+      
+      \item What is the simplest domain on which $\cos(x)$ is invertible? [1pt]
+      
+      $\cos(x)$ is invertible on $[0, \pi]$. 
+      
+      \item Let's call the inverse of $\cos(x)$ on that domain $\cos^{-1}(x)$, or $\arccos x$. What is the domain of $\cos^{-1}(x)$? The range? [1pt]
+      
+      The domain of $\cos^{-1}(x)$ is $[-1, 1]$, and the range is $[0, \pi]$.
+    
+      \item What is $\cos(\cos^{-1} x)$? For which values of $x$ is that true? [1pt]
+      
+      $\cos(\cos^{-1} x)$ is $x$ for $x$ in $[-1, 1]$.
+      
+      \item What is $\cos^{-1} (\cos x)$? For which values of $x$ is that true? [1pt]
+      
+      $\cos^{-1} (\cos x)$ is $x$ for all $x$.
+      
+      \item Sketch a graph of $y = \cos^{-1} x$. 
+\end{enumerate}
+
+
+\end{document}
