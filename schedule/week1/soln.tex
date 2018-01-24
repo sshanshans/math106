@@ -1,0 +1,70 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Problem set 1}
+\chead{\textbf{Trig Identities and Limits}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+
+We defined $\tan \theta=\frac{\sin\theta}{\cos\theta}$. The following questions help you think a little more about $\tan$. Yes, summer is not too far away. :) 
+
+\begin{enumerate}
+      \item What is the period of $\tan x$
+      
+      The period of $\tan x$ is $\pi$. (1pt)
+      \item For what values of $x$ is $\tan x$ positive?  Negative?  Zero? (1pt)
+     
+      $\tan x$ is 0 when $x = k\pi$ for any integer $k$; $\tan x$ is positive at $(0 + k\pi, \frac{\pi}{2} + k\pi)$ for any integer $k$; $\tan x$ is negative at $(-\frac{\pi}{2} + k \pi, 0 + k \pi)$ for any integer $k$. 
+       \item Where does $\tan x$ have vertical asymptotes? (1pt)
+       
+       $\tan x$ has vertical asymptotes at $\frac{\pi}{2} + k \pi$ for any integer $k$. 
+       
+      \item Does $\dsst\lim_{x\to\frac{\pi}{2}} \tan x$ exist?  Why or why not? (1pt)
+      
+     No it doesn't. Because $\tan x$ goes to positive infinity as $x$ goes to $\frac{\pi}{2}$. 
+      \item Does $\tan (|x|) = | \tan(x) |$? Why or why not? (1pt)
+      
+      No. $\tan (|\frac{3\pi}{4}|)$ is negative, but $|\tan (\frac{3\pi}{4})|$ is positive. 
+      \item Show $\tan^2 x + 1 = \sec^2 x$. (3pt)
+      
+      This is equivalent to show $\frac{\sin^2(x)}{\cos^2(x)} + 1 = \frac{1}{\cos^2(x)}$ (1pt). Rewrite the left hand side, we have $\frac{\sin^2(x)+\cos^2(x)}{\cos^2(x)} $ (1pt) . Since $\sin^2(x)+\cos^2(x) = 1$, we obtained the right hand side which is $\frac{1}{\cos^2(x)}$ (1pt). 
+      
+      \item Show $\cos x \tan x \csc x = 1$.  (2pt)
+      
+      Note that the left hand side can be written as $\cos x \frac{\sin x}{\cos x} \frac{1}{\sin(x)}$ (1pt). Simplify the fraction we get 1 (1pt). 
+\end{enumerate}
+
+
+\end{document}
