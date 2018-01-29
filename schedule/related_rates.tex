@@ -1,0 +1,65 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Example}
+\chead{\textbf{Related Rates}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+
+An airplane, flying at 450 km/hr at a constant altitude of 5 km is approaching a camera mounted on the ground. Let $\theta$ be the angle of elevation above the groundd at which the camera is pointed. 
+
+\begin{enumerate}
+\item Draw a well labeled picture of this situation and define all variables you will be using. 
+
+The figure was drawn in class and omitted here. Suppose the camera is at point $c$, and the plane is vertically above point $B$. Let $x$ be the distance between $B$ and $C$. 
+\item When $\theta = \pi /3 $, how fast does the camera have to rotate in order to keep the plane in view? 
+
+We know that $\frac{dx}{dt}$ is -450 km/hr, and want to find out what is $\frac{d\theta}{dt}$. To answer this, we need to understand how $x$ is related to $\theta$. 
+
+First we know, $\tan \theta = 5/x$. 
+
+Differentiating $\tan \theta = 5/x$ with respect to $t$ and with chain rule, we have 
+$$ \frac{1}{\cos^2 \theta} \frac{d\theta}{dt} = -5x^{-2} \frac{dx}{dt} $$
+
+We want to calculate $\frac{d\theta}{dt}$ when $\theta$ is $\frac{\pi}{3}$. At that moment $\cos \theta = 1/2$, $\tan \theta = \sqrt{3}$, so $ x= \frac{5}{\sqrt{3}}$. 
+
+Substituting gives
+$$ \frac{1}{(1/2)^2} \frac{d\theta}{dt} = -5 (\frac{5}{\sqrt{3}})^{-2} \times (-450) ,$$
+$$\frac{d\theta}{dt} = -20(\frac{5}{\sqrt{3}})^{-2} \times (-450)  ~\mbox{radians/hr} $$
+
+So the camera needs to rotate $-20(\frac{5}{\sqrt{3}})^{-2} \times (-450)$ radians per hour. 
+\end{enumerate}
+
+\end{document}

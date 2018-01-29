@@ -1,0 +1,75 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Example}
+\chead{\textbf{Moving man}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+Suppose a man moves along a line with acceleration $\frac{F}{m} = 1 m/s^2$. Suppose he is standing 2 meters to the right of a reference point at time 0 seconds, moving to the left at 1m/s. 
+
+\begin{enumerate}
+\item Let's set up an initial value problem to find expressions for his position and velocity. 
+
+Let $s(t)$ denote the position of the man at time $t$, where $t$ is measured in seconds and $s$ is measured in meters. Let $s'(t)$ denote the velocity of the man at time $t$. Assume right is positive. 
+\begin{align*}
+s''(t) = 1 \\
+s(0) = 2 \\
+s'(0) = -2
+\end{align*}
+
+To find the solution for this initial value problem, we first antidifferentiate $s''(t)$. We have $s'(t) = t + b$. Plugging in $s'(0) = -2$, we have $b = -2$ and thus $s'(t) = t-2$. 
+
+Next antidifferentiate again for $s'(t)$. We then have $s'(t) = \frac{t^2}{2} -2t +c$. Plugging in $s(0) = 2$, we have $c = 2$. Therefore, $s(t) =  \frac{t^2}{2} -2t +2$. 
+
+\item Describe the motion of this man. 
+\begin{itemize}
+\item At time 0 seconds, the man is 2 meters to the right of the reference point. It is moving to the left at a speed of 2 m/s. 
+\item The velocity increases throughout the entire motion, since the acceleration is a positive constant. 
+\item The man continues moves to the left with decreasing speed for 2 seconds. 
+\item At time 2 seconds, the man comes to an instantaneous stop right at the reference point. 
+\item Following that, the man moves to the right with increasing speed. 
+\item The object passes the reference point at time 2 seconds. 
+\end{itemize}
+\end{enumerate}
+
+In general, when you are asked to describe the motion on an object, follow the template below. 
+\begin{itemize}
+ \item Note the object's initial position, speed, and direction of motion.
+ \item Next, note how long it moves in the initial direction, and whether it is slowing down or speeding up.
+ \item Then write down every point at which it stops instantaneously, the subsequent direction of motion, and whether it is speeding up or slowing down following the instantaneous halt.
+ \item Lastly, note all the times it passes the reference point (position 0), if at all.
+\end{itemize}
+
+\end{document}
