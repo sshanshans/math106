@@ -4,6 +4,16 @@ title: Schedule
 description: weekly schedule
 ---
 For a complete schedule, please refer to Sakai. <br>
+* Quiz 1 revision is Due Monday 02/05. 
+
+* Schedule updates (edited on 01/30) <br>
+02/02 What is a Differential Equation? <br>
+02/05 Distance from Velocity <br>
+02/07 Left and Right hand sums <br>
+02/08 Sums and Sigma Notation <br>
+02/09 Gateway Test + Definite Integral Part I <br>
+02/12 Definite Integral Part II <br>
+02/14 FTC I <br>
 
 * Motion description example [(pdf)](\math106\schedule\week4\moving_man.pdf) <br>
 
@@ -19,9 +29,9 @@ For a complete schedule, please refer to Sakai. <br>
 
 * Problem set is due on 01/29: <br>
   Problem set 2 [(pdf)](\math106\schedule\week2\2.pdf) <br>
-  Solution [(pdf)]() <br>
+  Solution [(pdf)](\math106\schedule\week2\soln.pdf) <br>
 
 * Problem set is due on 01/22: <br>
   Problem set 1 [(pdf)](\math106\schedule\week1\1.pdf) <br>
-  Solution [(pdf)]() <br>
+  Solution [(pdf)](\math106\schedule\week1\soln.pdf) <br>
 
