@@ -4,6 +4,8 @@ title: Schedule
 description: weekly schedule
 ---
 For a complete schedule, please refer to Sakai. <br>
+* Exam 1 solution [(pdf)]((\math106\schedule\Exam1Shan_v2Soln.pdf) <\br>
+
 * Quiz 1 revision is Due Monday 02/05. 
 
 * Schedule updates (edited on 01/30) <br>
