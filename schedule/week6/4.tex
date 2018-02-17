@@ -1,0 +1,73 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Problem set 3}
+\chead{\textbf{DE and Riemann Sums}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+Please turn in the following problems. 
+
+5.1: 26 \\
+
+5.2: 11, 14, 31, 35\\
+
+5.3: 2, 6, 14, 17(a), 17(b)(ii), 24 \\
+
+Chapter 5 Review: 40 \\
+
+Past exam questions: 
+
+I. Consider the graph of the function $g(x)=\sin x$ between $x=0$ and $x=\pi$ radians.
+
+\begin{enumerate}
+ \item Calculate the left-hand sum with $n=3$ rectangles (a.k.a. $LHS_3$) for the area under the graph of $f(x)$ over this domain.  You must write out your calculation in full.  No calculator.
+ \item Draw one or more pictures to explain why the quantity $$\frac{LHS_3 + RHS_3}{2}$$ must equal the number you calculated in part (a).  Only pictures and words (and/or symbols) are acceptable.  No further calculations.
+ \item Without doing any further calculations, fill in the blank with one of the symbols $<$, $>$, or $=$: $$MPS_3\mbox{ \blank{0.25in} }RHS_3.$$
+ \item \emph{Briefly} explain your answer to part (c).  (Hint: You may find it helpful to refer to your answer to part (b) of this question, as well as to the concavity of $g(x)$.)
+\end{enumerate}
+
+
+II.  Consider the Riemann sum $$\sum_{k=0}^{9999} \left(e^{-(9+0.002k)^2} - 6(9+0.002k)^2\right)\times 0.002$$
+\begin{enumerate}
+ \item Is this a left hand sum, right hand sum, midpoint sum, or something else?
+ \item How many terms are in the sum?  (i.e. what is $n$?
+ \item By first finding $\Delta x$, $a$, and $b$, write down the definite integral this sum approximates.
+ \item Is the following sum greater than, less than, or equal to the one above?  Justify your answer.
+$$\sum_{k=0}^{99999} \left(e^{-(9+0.0002k)^2} - 6(9+0.0002k)^2\right)\times 0.0002$$\vfill
+\end{enumerate}
+
+
+
+\end{document}

@@ -1,0 +1,62 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Lab answer}
+\chead{\textbf{Newton's Law of Motion}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+11. A particle moves on a line with acceleration $s''(t) = -4t$. Suppose that $s(0) = 6$ and $s'(0) = 24$. Find the functions $s(t)$ and $s'(t)$. Graph the functions $s(t)$, $s'(t)$ and $s''(t)$ on the same set of axes and describe the motion in words.
+
+The initial value problem is given by 
+
+\begin{align*}
+s''(t) &= -4t \\
+s'(0) &= 24 \\
+s(0) & = 6
+\end{align*}
+
+The solution to the i.v.p. is $s(t) = -\frac{2}{3} t^3 + 24t + 6$. We also know that $s'(t) = -2t^2 + 24$. 
+
+Describe motion of this man.
+\begin{itemize}
+\item At time 0 seconds, the particle is 6 units to the right of the reference point. It is moving to the right at a speed of 24. 
+\item The velocity decreases throughout the entire motion, since the acceleration is negative.  
+\item The particle moves to the right with decreasing speed for $2\sqrt{3}$ units of time.
+\item At time $t = 2\sqrt{3}$, the particle comes to an instant stop at $32\sqrt{3} + 6$. 
+\item Following that, the particle moves to left with an increasing speed. 
+\item The particle passes the reference point at $t = 6.1213$
+\end{itemize}
+
+\end{document}
