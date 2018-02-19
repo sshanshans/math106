@@ -1,0 +1,65 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{amssymb, amsmath, mathrsfs, epsfig}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{6.5in}
+\setlength{\hoffset}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\marginparsep}{0in}
+\setlength{\marginparwidth}{0in}
+\setlength{\headsep}{0.25in}
+\setlength{\headheight}{0.5in}
+\pagestyle{fancy}
+
+\fancyhead[LO,LE]{Math 106L}
+\fancyhead[RO,RE]{Problem set 3}
+\chead{\textbf{DE and Riemann Sums}}
+\cfoot{}
+\fancyfoot[LO,LE]{}
+\fancyfoot[RO,RE]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.5pt}
+\parindent 0in
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Sp}{\vspace{.5in}}
+\newcommand{\defn}{\paragraph*{Definition}}
+\newcommand{\example}{\paragraph*{Example}}
+\newcommand{\examples}{\paragraph*{Examples}}
+\newcommand{\qns}{\paragraph*{Questions}}
+\newcommand{\qn}{\paragraph*{Question}}
+\newcommand{\blank}[1]{\underline{\hspace{#1}}}
+\newcommand{\dsst}{\displaystyle}
+
+\begin{document}
+
+Past exam questions: 
+
+Consider the sequence $x_i = \dsst\frac{i+3}{i-2}$, $3\leq i \leq 100\
+$.
+
+\begin{enumerate}
+  \item Find $x_6$.\\
+$$ x_6 = \frac{6+3}{6-2} = \frac{9}{4} $$
+
+  \item Compute $\dsst\sum_{i=1}^3 x_{i+2}$.
+$$ \sum_{i=1}^3 x_{i+2} = x_3 + x_4 + x_5 =  \frac{3+3}{3-2} +  \frac{4+3}{4-2} +  \frac{5+3}{3-2} = 6 + \frac{7}{2} + \frac{36}{6} = \frac{73}{6} $$
+
+  \item Fill in the two blanks: $$\dsst\sum_{i=1}^3 x_{i+2} = \dsst\sum_{i=8}^{10} x_{i-5}$$
+
+  \item Find the exact value of $\dsst\sum_{i=3}^{100} \left(\frac{x_i(i-2)-3}{i}\right)$.
+\begin{align*}
+\sum_{i=3}^{100} \left(\frac{x_i(i-2)-3}{i}\right) & = \sum_{i=3}^{100} \left(\frac{\frac{i+3}{i-2}(i-2)-3}{i}\right) \\
+& = \sum_{i=3}^{100} \left(\frac{i+3-3}{i}\right) \\
+& = \sum_{i=3}^{100} 1 \\
+& = 98 
+\end{align*}
+
+\end{enumerate}
+
+\end{document}

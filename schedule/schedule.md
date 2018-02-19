@@ -8,6 +8,7 @@ For a complete schedule, please refer to Sakai. <br>
 * Problem set 4 is due on 02/23 [(pdf)](\math106\schedule\week6\4.pdf) <br>
 
 * Problem set 3 is due on 02/14 [(pdf)](\math106\schedule\week5\3.pdf) <br>
+  Solution [(pdf)](\math106\schedule\week5\soln.pdf) <br>
 
 * Exam 1 solution [(pdf)](\math106\schedule\Exam1Shan_v2Soln.pdf) <br>
 
