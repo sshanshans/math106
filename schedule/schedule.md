@@ -3,7 +3,7 @@ layout: default
 title: Schedule
 description: weekly schedule
 ---
-For a complete schedule, please refer to Sakai. <br>
+* Problem set 5 is due on 03/02 [(pdf)](\math106\schedule\week7\5.pdf) <br>
 
 * Problem set 4 is due on 02/23 [(pdf)](\math106\schedule\week6\4.pdf) <br>
 
