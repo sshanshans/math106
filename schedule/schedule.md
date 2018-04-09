@@ -3,6 +3,8 @@ layout: default
 title: Schedule
 description: weekly schedule
 ---
+* Problem set 8 is due on 04/16 [(pdf)](\math106\schedule\week13\8.pdf) <br>
+
 * Problem set 7 (optional) [(pdf)](\math106\schedule\week12\7.pdf) <br>
 
 * Problem set 6 is due on 04/02 [(pdf)](\math106\schedule\week5\6.pdf) <br>
